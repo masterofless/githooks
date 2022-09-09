@@ -1,5 +1,4 @@
 - id: add-ticket-url
   name: Add ticket URL
   description: Adds a URL to JIRA ticket (found in summary) to commit message body
-  entry: add-ticket-url.sh
-  language: script
+  stages: commit-msg
